@@ -14,7 +14,7 @@ client.on('ready', () => {
 client.on('presenceUpdate', (oldMember, newMember) => {
 	if (generalChannel != false) {
 		if (oldMember.user.id == germUserId) {
-			generalChannel.send("Coucou Germain !!! https://www.youtube.com/watch?v=5CJ_fdEJy3Y") 
+			generalChannel.send("Coucou @" + newMember.user.username + " !!! https://www.youtube.com/watch?v=5CJ_fdEJy3Y") 
 		}
 	}
 })
