@@ -1,0 +1,11 @@
+{
+  "name": "Stop-II-bot",
+  "version": "1.0.0",
+  "description": "Germ aime Stop II",
+  "main": "bot.js",
+  "author": "PP",
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
+  }
+}
